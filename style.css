@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background:#f9f9f9;
+}
+.hidden { display: none; }
+button {
+    margin:.5rem;
+    padding:.5rem 1rem;
+    font-size:1rem;
+}
+#output {
+    margin-top:2rem;
+    font-weight:bold;
+    color:#333;
+}

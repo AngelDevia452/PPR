@@ -1,0 +1,6 @@
+# ATTRACTION LOG – keep one line per external resource
+# Format: [date] – [resource] – [type] – [URL] – [notes]
+
+2026-02-19 – seedrandom.js – library (MIT) – https://github.com/davidbau/seedrandom – optional deterministic RNG
+2026-02-19 – Font Awesome free icons – graphics – https://fontawesome.com – used for UI buttons
+2026-02-19 – ChatGPT snippet (generateCase) – AI-generated – prompt: "random legal case generator" – reviewed and modified

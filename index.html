@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courtroom Decision Game</title>
+    <link rel="stylesheet" href="style.css"><!-- optional styling -->
+</head>
+<body>
+
+<h1>Courtroom Decision Game</h1>
+
+<p>Do you want to hire a lawyer?</p>
+<button id="hireBtn">Hire a lawyer</button>
+<button id="soloBtn">Represent yourself</button>
+
+<!-- Lawyer question flow -->
+<div id="questionBox" class="hidden">
+    <p id="questionText"></p>
+    <input type="text" id="answerInput" placeholder="Your answer…">
+    <button id="nextQuestionBtn">Next</button>
+</div>
+
+<!-- Solo flow -->
+<div id="soloBox" class="hidden">
+    <p>Enter your opening statement (anything you like):</p>
+    <input type="text" id="soloInput" placeholder="Opening statement…">
+    <button id="submitSoloBtn">Submit</button>
+</div>
+
+<div id="output"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
