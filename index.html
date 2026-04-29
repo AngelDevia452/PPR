@@ -9,11 +9,11 @@
 <body>
     <div id="root"></div>
 
-    <!-- React and ReactDOM from CDN -->
+
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 
-    <!-- Babel for JSX transformation -->
+
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
     <script type="text/babel">
@@ -64,7 +64,6 @@
             }
         };
 
-        // App Component
         const App = () => {
             const [city, setCity] = useState('');
             const [cityInfo, setCityInfo] = useState(null);
@@ -158,5 +157,8 @@
         const root = ReactDOM.createRoot(document.getElementById('root'));
         root.render(<App />);
     </script>
+    <footer>
+        <p>This Massachusetts City Search application was developed with assistance from GitHub Copilot, including code generation for the React components, data structure implementation, and user interface logic.</p>
+    </footer>
 </body>
 </html>
